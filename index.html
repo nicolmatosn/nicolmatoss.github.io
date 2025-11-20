@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Página de Nicol Matos Neyra</title>
+
+<!-- FUENTE MODERNA Y LLAMATIVA -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background-color: #faf8ff;
+        color: #333;
+        display: flex;
+        line-height: 1.65;
+        letter-spacing: 0.4px;
+    }
+
+    /* ==== SIDEBAR IZQUIERDA ==== */
+    .sidebar {
+        width: 280px;
+        background-color: #cdb5ff;
+        height: 100vh;
+        padding: 40px 25px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+    }
+
+    .sidebar h1 {
+        font-size: 38px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-bottom: 8px;
+    }
+
+    .sidebar p {
+        font-size: 14px;
+        opacity: 0.9;
+        margin-bottom: 40px;
+        letter-spacing: 0.6px;
+    }
+
+    .nav-link {
+        margin-bottom: 20px;
+        font-size: 18px;
+        font-weight: 600;
+        text-decoration: none;
+        color: white;
+        padding: 12px 17px;
+        border-radius: 12px;
+        background-color: #e4d6ff;
+        transition: 0.3s;
+        display: block;
+        letter-spacing: 0.7px;
+    }
+
+    .nav-link:hover {
+        background-color: #f0e8ff;
+        transform: translateX(6px);
+    }
+
+    /* ==== CONTENIDO DERECHA ==== */
+    .content {
+        margin-left: 300px;
+        padding: 45px;
+        width: calc(100% - 300px);
+        font-size: 17px;
+    }
+
+    h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+        color: #5a3ea3;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+    }
+
+    /* ==== TARJETAS ==== */
+    .box {
+        background: #f6f1ff;
+        padding: 35px;
+        border-radius: 20px;
+        margin-bottom: 40px;
+        box-shadow: 0 3px 7px rgba(180, 140, 255, 0.25);
+        border: 1px solid #e6d8ff;
+        font-size: 17px;
+        letter-spacing: 0.5px;
+        line-height: 1.7;
+    }
+
+    .box a {
+        color: #5a3ea3;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .box a:hover {
+        text-decoration: underline;
+    }
+
+    /* ==== FOOTER ==== */
+    footer {
+        margin-top: 50px;
+        padding: 15px;
+        text-align: center;
+        color: #777;
+        font-size: 15px;
+        letter-spacing: 0.8px;
+    }
+</style>
+</head>
+
+<body>
+
+<!-- ===== SIDEBAR IZQUIERDA ===== -->
+<div class="sidebar">
+    <h1>Nicol Matos Neyra</h1>
+    <p>Estudiante de Administración de Negocios - Universidad Católica San Pablo</p>
+
+    <a href="#sobre-mi" class="nav-link">Sobre mí</a>
+    <a href="#cursos" class="nav-link">Cursos</a>
+    <a href="#contacto" class="nav-link">Contacto</a>
+</div>
+
+
+<!-- ===== CONTENIDO PRINCIPAL ===== -->
+<div class="content">
+
+    <!-- SOBRE MI -->
+    <div class="box" id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>Tengo 19 años. Soy la hermana mayor de dos hijos. Estudié primaria y secundaria en el 
+        <a href="https://www.cmu.edu.pe/es/" target="_blank">Colegio Peruano Alemán Max Uhle</a>.
+        </p>
+
+        <p>Estoy cursando el cuarto ciclo en la carrera de 
+        <a href="https://ucsp.edu.pe/carreras/administracion-negocios/" target="_blank">
+            Administración de Negocios en la Universidad Católica San Pablo
+        </a>.
+        </p>
+
+        <p>Durante este tiempo he establecido buenas amistades con los siguientes compañeros:</p>
+
+        <ul>
+            <li><a href="#" style="text-decoration:none;">Bruno Gomez</a></li>
+            <li><a href="https://anamirandavaldivia-ops.github.io/pagina-web-Ana-Luc-a-Miranda-Valdivia/" target="_blank" style="text-decoration:none;">Ana Lucia Miranda</a></li>
+            <li><a href="https://lucianabvr1-star.github.io/Luciana-Velasquez/" target="_blank" style="text-decoration:none;">Luciana Velasquez</a></li>
+            <li><a href="https://anyelodosantosb-wq.github.io" target="_blank" style="text-decoration:none;">Anyelo Blanco</a></li>
+            <li><a href="https://gabrielacarvallo.github.io/Pagina-web-Gabriela-Carvallo/" target="_blank" style="text-decoration:none;">Gabriela Carvallo</a></li>
+            <li><a href="#" style="text-decoration:none;">Yoandria Martinez</a></li>
+        </ul>
+
+        <p>Mi pasatiempo favorito es salir con mis amigos y caminar.</p>
+    </div>
+
+
+    <!-- CURSOS -->
+    <div class="box" id="cursos">
+        <h2>Cursos</h2>
+
+        <ul>
+            <li>📊 Análisis Financiero</li>
+            <li>📐 Cálculo en una Variable</li>
+            <li>📚 Antropología</li>
+            <li>🧠 Lógica</li>
+            <li>🗺 Historia de Occidente I</li>
+            <li>💻 Pensamiento Computacional — curso a cargo de 
+                <a href="https://www.linkedin.com/in/ecuadrosv/" target="_blank">Ernesto Cuadros</a>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- CONTACTO -->
+    <div class="box" id="contacto">
+        <h2>Contacto</h2>
+
+        <p>📧 Correo institucional:<br> nicol.matos@ucsp.edu.pe</p>
+        <p>💼 LinkedIn:<br>
+            <a href="https://www.linkedin.com/in/nicol-fabiana-matos-neyra-0779ba386/" target="_blank">
+                Nicol Matos Neyra
+            </a>
+        </p>
+    </div>
+
+    <footer>
+        © 2025 Nicol Matos Neyra
+    </footer>
+
+</div>
+
+</body>
+</html>
